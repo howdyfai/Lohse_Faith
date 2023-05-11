@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global Styles */
+body {
+  background-color: whitesmoke;
+}
+
+/* NavBar Styles */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23000' d='M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13z'/%3E%3C/svg%3E");
+}
+
+/* Page Styles */
+.display-1 {
+  margin-top: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.carousel-caption {
+  background-color: #000000;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.carousel-caption h5 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
